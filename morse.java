@@ -10,26 +10,80 @@ public class morse {
 	public morse() {
 		
 		
-		matrizMorse[0] = ".-";/*a*/ matrizMorse[1] = "-...";/*b*/ matrizMorse[2] = "-.-.";/*c*/ matrizMorse[3] = "-..";/*d*/
-		matrizMorse[4] = ".";/*e*/ matrizMorse[5] = "..-.";/*f*/ matrizMorse[6] = "--.";/*g*/ matrizMorse[7] = "....";/*h*/
-		matrizMorse[8] = "..";/*i*/ matrizMorse[9] = ".---";/*j*/ matrizMorse[10] = "-.-";/*k*/ matrizMorse[11] = ".-..";/*l*/
-		matrizMorse[12] = "--";/*m*/ matrizMorse[13] = "-.";/*n*/ matrizMorse[14] = "---";/*o*/ matrizMorse[15] = ".--.";/*p*/
-		matrizMorse[16] = "--.-";/*q*/ matrizMorse[17] = ".-.";/*r*/ matrizMorse[18] = "...";/*s*/ matrizMorse[19] = "-";/*t*/
-		matrizMorse[20] = "..-";/*u*/ matrizMorse[21] = "...-";/*v*/ matrizMorse[22] = ".--";/*w*/ matrizMorse[23] = "-..-";/*x*/
-		matrizMorse[24] = "-.--";/*y*/ matrizMorse[25] = "--..";/*z*/ matrizMorse[26] = ".----";/*1*/ matrizMorse[27] = "..---";/*2*/
-		matrizMorse[28] = "...--";/*3*/ matrizMorse[29] = "....-";/*4*/ matrizMorse[30] = ".....";/*5*/ matrizMorse[31] = "-....";/*6*/
-		matrizMorse[32] = "--...";/*7*/ matrizMorse[33] = "---..";/*8*/ matrizMorse[34] = "----.";/*9*/ matrizMorse[35] = "-----";/*0*/
+		matrizMorse[0] = ".-";
+		matrizMorse[1] = "-...";
+		matrizMorse[2] = "-.-.";
+		matrizMorse[3] = "-..";
+		matrizMorse[4] = ".";
+		matrizMorse[5] = "..-.";
+		matrizMorse[6] = "--.";
+		matrizMorse[7] = "....";
+		matrizMorse[8] = "..";
+		matrizMorse[9] = ".---";
+		matrizMorse[10] = "-.-";
+		matrizMorse[11] = ".-..";
+		matrizMorse[12] = "--";
+		matrizMorse[13] = "-.";
+		matrizMorse[14] = "---";
+		matrizMorse[15] = ".--.";
+		matrizMorse[16] = "--.-";
+		matrizMorse[17] = ".-.";
+		matrizMorse[18] = "...";
+		matrizMorse[19] = "-";
+		matrizMorse[20] = "..-";
+		matrizMorse[21] = "...-";
+		matrizMorse[22] = ".--";
+		matrizMorse[23] = "-..-";
+		matrizMorse[24] = "-.--";
+		matrizMorse[25] = "--..";
+		matrizMorse[26] = ".----";
+		matrizMorse[27] = "..---";
+		matrizMorse[28] = "...--";
+		matrizMorse[29] = "....-";
+		matrizMorse[30] = ".....";
+		matrizMorse[31] = "-....";
+		matrizMorse[32] = "--...";
+		matrizMorse[33] = "---..";
+		matrizMorse[34] = "----.";
+		matrizMorse[35] = "-----";
 		
 		
-		matrizAbecedario[0] = 'a'; matrizAbecedario[1] = 'b'; matrizAbecedario[2] = 'c'; matrizAbecedario[3] = 'd';
-		matrizAbecedario[4] = 'e'; matrizAbecedario[5] = 'f'; matrizAbecedario[6] = 'g'; matrizAbecedario[7] = 'h';
-		matrizAbecedario[8] = 'i'; matrizAbecedario[9] = 'j'; matrizAbecedario[10] = 'k'; matrizAbecedario[11] = 'l';
-		matrizAbecedario[12] = 'm'; matrizAbecedario[13] = 'n'; matrizAbecedario[14] = 'o'; matrizAbecedario[15] = 'p';
-		matrizAbecedario[16] = 'q'; matrizAbecedario[17] = 'r'; matrizAbecedario[18] = 's'; matrizAbecedario[19] = 't';
-		matrizAbecedario[20] = 'u'; matrizAbecedario[21] = 'v'; matrizAbecedario[22] = 'w'; matrizAbecedario[23] = 'x';
-		matrizAbecedario[24] = 'y'; matrizAbecedario[25] = 'z'; matrizAbecedario[26] = '1'; matrizAbecedario[27] = '2';
-		matrizAbecedario[28] = '3'; matrizAbecedario[29] = '4'; matrizAbecedario[30] = '5'; matrizAbecedario[31] = '6';
-		matrizAbecedario[32] = '7'; matrizAbecedario[33] = '8'; matrizAbecedario[34] = '9'; matrizAbecedario[35] = '0';	
+		matrizAbecedario[0] = 'a';
+		matrizAbecedario[1] = 'b';
+		matrizAbecedario[2] = 'c';
+		matrizAbecedario[3] = 'd';
+		matrizAbecedario[4] = 'e'; 
+		matrizAbecedario[5] = 'f'; 
+		matrizAbecedario[6] = 'g';
+		matrizAbecedario[7] = 'h';
+		matrizAbecedario[8] = 'i';
+		matrizAbecedario[9] = 'j'; 
+		matrizAbecedario[10] = 'k'; 
+		matrizAbecedario[11] = 'l';
+		matrizAbecedario[12] = 'm';
+		matrizAbecedario[13] = 'n'; 
+		matrizAbecedario[14] = 'o'; 
+		matrizAbecedario[15] = 'p';
+		matrizAbecedario[16] = 'q';
+		matrizAbecedario[17] = 'r'; 
+		matrizAbecedario[18] = 's'; 
+		matrizAbecedario[19] = 't';
+		matrizAbecedario[20] = 'u'; 
+		matrizAbecedario[21] = 'v'; 
+		matrizAbecedario[22] = 'w';
+		matrizAbecedario[23] = 'x';
+		matrizAbecedario[24] = 'y'; 
+		matrizAbecedario[25] = 'z'; 
+		matrizAbecedario[26] = '1'; 
+		matrizAbecedario[27] = '2';
+		matrizAbecedario[28] = '3'; 
+		matrizAbecedario[29] = '4'; 
+		matrizAbecedario[30] = '5'; 
+		matrizAbecedario[31] = '6';
+		matrizAbecedario[32] = '7'; 
+		matrizAbecedario[33] = '8'; 
+		matrizAbecedario[34] = '9'; 
+		matrizAbecedario[35] = '0';	
 	}
 	
 	
