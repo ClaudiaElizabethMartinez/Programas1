@@ -16,18 +16,14 @@ public class Main {
 		morse codigo = new morse();
 		while(bandera) {
 			System.out.println("Elige una opcion: \n "
-					+ "1.- Español a Codigo Morse\n"
-					+ "2.- Codigo Morse a Español");
+					+ "1.- EspaÃ±ol a Codigo Morse\n"
+					+ "2.- Codigo Morse a EspaÃ±ol");
 			respuesta = entrada.nextInt();
 			System.out.println("Ingrese la palabra: ");
 			palabra = entrada.next();
 			traduccion = codigo.opciones(respuesta, palabra);
 			System.out.println("La palabra : " + palabra + " se tradujo: " + traduccion);
-			System.out.println("Desea hacer otra traduccion? s/n" );
-			continuar = entrada.next();
-			if(continuar != "s") {
-				bandera = false;
-			}
+			
 			
 		}
 		
