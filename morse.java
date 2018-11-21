@@ -108,7 +108,6 @@ public class morse {
 		String letraM;
 		String[] letraMorse = palabra.split(" ");
 		String palabraEsp = "";
-		//el primer for es para leer la longitu y comprobar el primer caracter con todo el abecedario
 		for(int i=0; i<letraMorse.length; i++) {
 			letraM = letraMorse[i];
 			for(int e=0; e<matrizMorse.length; e++) {
